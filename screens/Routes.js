@@ -27,7 +27,7 @@ export default function App() {
                     component={MicrophoneInput}
                     options={({ navigation }) => ({
                         header: () => (
-                            <NavFooter navigation={navigation} />
+                            <NavFooter navigation={navigation} currentPage="MicrophoneInput" />
                         )
                     })
                     }
@@ -37,7 +37,7 @@ export default function App() {
                     component={CommandInput}
                     options={({ navigation }) => ({
                         header: () => (
-                            <NavFooter navigation={navigation}/>
+                            <NavFooter navigation={navigation} currentPage="CommandInput" />
                         )
                     })
                     }
